@@ -13,7 +13,7 @@ Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, 
 | [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) · [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor. Uydurma koruması kurgusal vakalarla CI'da ölçülüyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit, LocalDB testleri |
 | [**PromptForge**](https://github.com/kursatcnk/prompt-forge) | Promptu kullanılacak modele göre yeniden yazıyor, 6 ölçütte puanlıyor ve neyin neden eksik olduğunu anlatıyor | ASP.NET Core 8, SQL Server, Gemini, 2FA |
 | [**EF Core Commerce Analytics**](https://github.com/kursatcnk/EFCoreCommerceAnalytics) | E-ticaret yönetim paneli: sipariş, ürün, müşteri yönetimi ve satış analizleri | ASP.NET Core MVC, EF Core, xUnit, GitHub Actions |
-| [**Görev Takip**](https://github.com/kursatcnk/work-tracker) | Kurulum istemeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması | WPF, .NET 10 |
+| [**WorkTracker**](https://github.com/kursatcnk/work-tracker) | Kurulum istemeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması | WPF, .NET 10 |
 | [**AI Integrations**](https://github.com/kursatcnk/AI.NetCoreAdvancedIntegrations) | Claude, Gemini, OpenAI, Azure AI ve Hugging Face'i aynı çözümde yan yana karşılaştıran projeler | .NET 9, REST |
 | [**N-Tier Architecture**](https://github.com/kursatcnk/NTierArchitecture) | Katmanlı mimari ile Web API, yanında Clean Architecture sürümü | ASP.NET Core 8, FluentValidation, AutoMapper |
 
