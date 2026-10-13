@@ -10,7 +10,7 @@ Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, 
 
 | Proje | Ne yapıyor | Teknoloji |
 |---|---|---|
-| [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit |
+| [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) · [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor. Uydurma koruması kurgusal vakalarla CI'da ölçülüyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit, LocalDB testleri |
 | [**PromptForge**](https://github.com/kursatcnk/prompt-forge) | Promptu kullanılacak modele göre yeniden yazıyor, 6 ölçütte puanlıyor ve neyin neden eksik olduğunu anlatıyor | ASP.NET Core 8, SQL Server, Gemini, 2FA |
 | [**EF Core Commerce Analytics**](https://github.com/kursatcnk/EFCoreCommerceAnalytics) | E-ticaret yönetim paneli: sipariş, ürün, müşteri yönetimi ve satış analizleri | ASP.NET Core MVC, EF Core, xUnit, GitHub Actions |
 | [**Görev Takip**](https://github.com/kursatcnk/work-tracker) | Kurulum istemeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması | WPF, .NET 10 |
@@ -30,6 +30,7 @@ Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, 
 - **Frontend:** HTML, CSS, JavaScript
 - **Masaüstü:** WPF, Windows Forms
 - **Yapay zekâ:** OpenAI, Anthropic Claude, Google Gemini, Azure AI Services, Hugging Face
+- **Test ve CI:** xUnit, WebApplicationFactory ile LocalDB üzerinde API testleri, GitHub Actions
 - **Analiz:** Gereksinim analizi, user story ve kabul kriterleri, Scrum, SLA ve trend analizi
 
 ## İletişim
