@@ -4,12 +4,13 @@
 
 Bir ihtiyacı dinleyip netleştirmekle, onu çalışan bir yazılıma dönüştürmek arasındaki mesafeyi kısaltmaya çalışıyorum. ESN Sistem Yazılım'da iş birimlerinden gelen talepleri analiz edip geliştirme ekibi için user story ve kabul kriterlerine çeviriyorum. Kalan zamanımda aynı soruyu kendi ürünlerimde soruyorum: kullanıcı gerçekte neye ihtiyaç duyuyor ve bunun en sade çözümü ne?
 
-Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, WPF ile masaüstü araçlar geliştiriyorum. Son dönemde odağım .NET uygulamalarına yapay zekâ entegre etmek: OpenAI, Claude, Gemini, Azure AI ve Hugging Face API'leriyle onlarca entegrasyon denedim, öğrendiklerimi PromptForge'da bir ürüne dönüştürdüm.
+Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, WPF ile masaüstü araçlar geliştiriyorum. Son dönemde odağım .NET uygulamalarına yapay zekâ entegre etmek: OpenAI, Claude, Gemini, Azure AI ve Hugging Face API'leriyle onlarca entegrasyon denedim, öğrendiklerimi PromptForge'da ve CV'yi ilana göre uydurmadan yeniden yazan CV Tailor'da ürüne dönüştürdüm.
 
 ## Öne çıkan işler
 
 | Proje | Ne yapıyor | Teknoloji |
 |---|---|---|
+| [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit |
 | [**PromptForge**](https://github.com/kursatcnk/prompt-forge) | Promptu kullanılacak modele göre yeniden yazıyor, 6 ölçütte puanlıyor ve neyin neden eksik olduğunu anlatıyor | ASP.NET Core 8, SQL Server, Gemini, 2FA |
 | [**EF Core Commerce Analytics**](https://github.com/kursatcnk/EFCoreCommerceAnalytics) | E-ticaret yönetim paneli: sipariş, ürün, müşteri yönetimi ve satış analizleri | ASP.NET Core MVC, EF Core, xUnit, GitHub Actions |
 | [**Görev Takip**](https://github.com/kursatcnk/work-tracker) | Kurulum istemeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması | WPF, .NET 10 |
