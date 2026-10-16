@@ -4,12 +4,13 @@
 
 Bir ihtiyacı dinleyip netleştirmekle, onu çalışan bir yazılıma dönüştürmek arasındaki mesafeyi kısaltmaya çalışıyorum. ESN Sistem Yazılım'da iş birimlerinden gelen talepleri analiz edip geliştirme ekibi için user story ve kabul kriterlerine çeviriyorum. Kalan zamanımda aynı soruyu kendi ürünlerimde soruyorum: kullanıcı gerçekte neye ihtiyaç duyuyor ve bunun en sade çözümü ne?
 
-Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, WPF ile masaüstü araçlar geliştiriyorum. Son dönemde odağım .NET uygulamalarına yapay zekâ entegre etmek: OpenAI, Claude, Gemini, Azure AI ve Hugging Face API'leriyle onlarca entegrasyon denedim, öğrendiklerimi PromptForge'da ve CV'yi ilana göre uydurmadan yeniden yazan CV Tailor'da ürüne dönüştürdüm. En son TypeScript'e geçip manga sayfalarını okunduğu yerde Türkçeye çeviren bir Chrome eklentisi yazdım: Manga Lens.
+Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, WPF ile masaüstü araçlar geliştiriyorum. Son dönemde odağım .NET uygulamalarına yapay zekâ entegre etmek: OpenAI, Claude, Gemini, Azure AI ve Hugging Face API'leriyle onlarca entegrasyon denedim, öğrendiklerimi PromptForge'da ve CV'yi ilana göre uydurmadan yeniden yazan CV Tailor'da ürüne dönüştürdüm. Ardından TypeScript'e geçip manga sayfalarını okunduğu yerde Türkçeye çeviren bir Chrome eklentisi yazdım: Manga Lens. En son masaüstüne döndüm: LinguaFlow, bilgisayarda çalan İngilizce sesi hiçbir buluta göndermeden Türkçe canlı altyazıya çeviriyor.
 
 ## Öne çıkan işler
 
 | Proje | Ne yapıyor | Teknoloji |
 |---|---|---|
+| [**LinguaFlow**](https://github.com/kursatcnk/LinguaFlow) | Bilgisayarda çalan İngilizce sesi yakalayıp ekranın üstünde Türkçe canlı altyazıya çeviren masaüstü uygulaması. Konuşma tanıma ve çeviri tamamen cihazda çalışıyor; ses bilgisayardan çıkmıyor, API anahtarı ya da abonelik gerekmiyor | WPF, .NET 10, NAudio (WASAPI), Whisper, Mozilla Bergamot, xUnit |
 | [**Manga Lens**](https://github.com/kursatcnk/manga-lens) | Okunan manga ve çizgi roman sayfasını tek tıkla, sayfayı yenilemeden yerinde Türkçeye çeviren Chrome eklentisi. Balonları ekran görüntüsünden buluyor, çeviriyi balonun şekline taşmadan yerleştiriyor, uzun kelimeleri Türkçe hece kurallarına göre bölüyor | TypeScript, Chrome Extension (MV3), Claude · Gemini, Vitest |
 | [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) · [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor. Uydurma koruması kurgusal vakalarla CI'da ölçülüyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit, LocalDB testleri |
 | [**PromptForge**](https://github.com/kursatcnk/prompt-forge) | Promptu kullanılacak modele göre yeniden yazıyor, 6 ölçütte puanlıyor ve neyin neden eksik olduğunu anlatıyor | ASP.NET Core 8, SQL Server, Gemini, 2FA |
