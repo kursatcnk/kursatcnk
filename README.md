@@ -1,43 +1,54 @@
 # Kürşatcan Çankaroğlu
 
-**Teknik İş Analisti · C# / .NET Geliştirici** · İstanbul
+C# / .NET geliştiricisiyim. ASP.NET Core ile web uygulamaları, WPF ile masaüstü araçlar yazıyorum; son projelerimde dil modellerini ve cihazda çalışan konuşma ve çeviri modellerini .NET uygulamalarına bağlıyorum. İstanbul'da ESN Sistem Yazılım'da teknik iş analisti olarak çalışıyorum.
 
-Bir ihtiyacı dinleyip netleştirmekle, onu çalışan bir yazılıma dönüştürmek arasındaki mesafeyi kısaltmaya çalışıyorum. ESN Sistem Yazılım'da iş birimlerinden gelen talepleri analiz edip geliştirme ekibi için user story ve kabul kriterlerine çeviriyorum. Kalan zamanımda aynı soruyu kendi ürünlerimde soruyorum: kullanıcı gerçekte neye ihtiyaç duyuyor ve bunun en sade çözümü ne?
+## Odak
 
-Kod tarafında C#, ASP.NET Core ve Entity Framework Core ile web uygulamaları, WPF ile masaüstü araçlar geliştiriyorum. Son dönemde odağım .NET uygulamalarına yapay zekâ entegre etmek: OpenAI, Claude, Gemini, Azure AI ve Hugging Face API'leriyle onlarca entegrasyon denedim, öğrendiklerimi PromptForge'da ve CV'yi ilana göre uydurmadan yeniden yazan CV Tailor'da ürüne dönüştürdüm. Ardından TypeScript'e geçip manga sayfalarını okunduğu yerde Türkçeye çeviren bir Chrome eklentisi yazdım: Manga Lens. En son masaüstüne döndüm: LinguaFlow, bilgisayarda çalan İngilizce sesi hiçbir buluta göndermeden Türkçe canlı altyazıya çeviriyor.
+- **Backend:** ASP.NET Core Web API ve MVC, Entity Framework Core, SQL Server, JWT ve TOTP ile kimlik doğrulama
+- **Masaüstü:** WPF, WASAPI ile ses yakalama, cihazda çalışan Whisper ve Bergamot modelleri
+- **LLM entegrasyonu:** Claude, OpenAI, Gemini; model çıktısını kodla doğrulama (kaynakta olmayan rakam ve iddiayı yakalama)
+- **Test:** xUnit, LocalDB üzerinde uçtan uca API testleri, Vitest, GitHub Actions
 
-## Öne çıkan işler
+## Projeler
 
-| Proje | Ne yapıyor | Teknoloji |
-|---|---|---|
-| [**LinguaFlow**](https://github.com/kursatcnk/LinguaFlow) | Bilgisayarda çalan İngilizce sesi yakalayıp ekranın üstünde Türkçe canlı altyazıya çeviren masaüstü uygulaması. Konuşma tanıma ve çeviri tamamen cihazda çalışıyor; ses bilgisayardan çıkmıyor, API anahtarı ya da abonelik gerekmiyor | WPF, .NET 10, NAudio (WASAPI), Whisper, Mozilla Bergamot, xUnit |
-| [**Manga Lens**](https://github.com/kursatcnk/manga-lens) | Okunan manga ve çizgi roman sayfasını tek tıkla, sayfayı yenilemeden yerinde Türkçeye çeviren Chrome eklentisi. Balonları ekran görüntüsünden buluyor, çeviriyi balonun şekline taşmadan yerleştiriyor, uzun kelimeleri Türkçe hece kurallarına göre bölüyor | TypeScript, Chrome Extension (MV3), Claude · Gemini, Vitest |
-| [**CV Tailor**](https://github.com/kursatcnk/cv-tailor) · [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0) | CV'yi başvurulan ilana göre yeniden yazıyor, her değişikliğin nedenini anlatıyor; kaynağı olmayan rakam ya da iddia onaysız CV'ye girmiyor. Uydurma koruması kurgusal vakalarla CI'da ölçülüyor | ASP.NET Core 10, SQL Server, QuestPDF, xUnit, LocalDB testleri |
-| [**PromptForge**](https://github.com/kursatcnk/prompt-forge) | Promptu kullanılacak modele göre yeniden yazıyor, 6 ölçütte puanlıyor ve neyin neden eksik olduğunu anlatıyor | ASP.NET Core 8, SQL Server, Gemini, 2FA |
-| [**EF Core Commerce Analytics**](https://github.com/kursatcnk/EFCoreCommerceAnalytics) | E-ticaret yönetim paneli: sipariş, ürün, müşteri yönetimi ve satış analizleri | ASP.NET Core MVC, EF Core, xUnit, GitHub Actions |
-| [**WorkTracker**](https://github.com/kursatcnk/work-tracker) | Kurulum istemeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması | WPF, .NET 10 |
-| [**AI Integrations**](https://github.com/kursatcnk/AI.NetCoreAdvancedIntegrations) | Claude, Gemini, OpenAI, Azure AI ve Hugging Face'i aynı çözümde yan yana karşılaştıran projeler | .NET 9, REST |
-| [**N-Tier Architecture**](https://github.com/kursatcnk/NTierArchitecture) | Katmanlı mimari ile Web API, yanında Clean Architecture sürümü | ASP.NET Core 8, FluentValidation, AutoMapper |
+### Ürünler
 
-## Deneyim
+- **[LinguaFlow](https://github.com/kursatcnk/LinguaFlow)** — Windows'ta çalan İngilizce sesi tamamen cihazda Türkçe canlı altyazıya çevirir.  
+  `C#` `WPF` `.NET 10` `Whisper` `Bergamot`
+- **[CV Tailor](https://github.com/kursatcnk/cv-tailor)** — CV'yi ilana göre yeniden yazar; kaynağı olmayan rakam ve iddia onaysız CV'ye girmez. [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0)  
+  `ASP.NET Core 10` `EF Core` `SQL Server` `QuestPDF` `xUnit`
+- **[Manga Lens](https://github.com/kursatcnk/manga-lens)** — Manga ve çizgi roman sayfalarını okunduğu yerde, balonların içine Türkçe çeviren Chrome eklentisi.  
+  `TypeScript` `Chrome MV3` `Claude` `Gemini` `Vitest`
+- **[PromptForge](https://github.com/kursatcnk/prompt-forge)** — Promptu hedef modele göre yeniden yazar, 6 ölçütte puanlar ve eksikleri gerekçesiyle gösterir.  
+  `ASP.NET Core 8` `EF Core` `SQL Server` `JWT` `TOTP`
+- **[WorkTracker](https://github.com/kursatcnk/work-tracker)** — Kurulum gerektirmeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması.  
+  `C#` `WPF` `.NET 10`
 
-- **2025 – bugün:** Teknik İş Analisti, ESN Sistem Yazılım
-- **2023 – 2025:** Yazılım Destek Uzmanı, ESN Sistem Yazılım. Log analizi, kök neden raporları, ekip için bilgi bankası.
-- **2017 – 2018:** Veri Analisti Stajyeri, Siemens. SQL ile raporlama ve rapor otomasyonu.
-- **Eğitim:** Yönetim Bilişim Sistemleri (lisans). Sakarya Üniversitesi'nde Bilişim Sistemleri yüksek lisansına devam ediyorum.
+### Backend ve mimari
 
-## Kullandığım araçlar
+- **[EF Core Commerce Analytics](https://github.com/kursatcnk/EFCoreCommerceAnalytics)** — Sipariş, ürün ve müşteri yönetimiyle satış raporları sunan e-ticaret paneli.  
+  `ASP.NET Core MVC` `EF Core` `xUnit` `GitHub Actions`
+- **[N-Tier Architecture](https://github.com/kursatcnk/NTierArchitecture)** — Generic repository, Unit of Work ve global doğrulama filtresiyle katmanlı Web API.  
+  `ASP.NET Core 8` `EF Core` `FluentValidation` `AutoMapper` `xUnit`
+- **[MVC Kütüphane](https://github.com/kursatcnk/MvcKutuphane)** — Yönetici ve üye paneli ayrı kütüphane yönetim sistemi.  
+  `ASP.NET MVC 5` `Entity Framework 6` `SQL Server`
+- **[Spor Salonu Yönetimi](https://github.com/kursatcnk/Bitirme_Projesi)** — Üye, eğitmen, ekipman ve randevu kayıtlarını tutan masaüstü uygulaması (lisans bitirme projesi).  
+  `C#` `Windows Forms` `SQL Server`
 
-- **Backend:** C#, ASP.NET Core, MVC, Web API, Entity Framework Core, SQL Server, JWT, TOTP
-- **Frontend:** HTML, CSS, JavaScript, TypeScript
-- **Tarayıcı eklentisi:** Chrome Extensions (Manifest V3), Canvas, Shadow DOM
-- **Masaüstü:** WPF, Windows Forms
-- **Yapay zekâ:** OpenAI, Anthropic Claude, Google Gemini, Azure AI Services, Hugging Face
-- **Test ve CI:** xUnit, WebApplicationFactory ile LocalDB üzerinde API testleri, Vitest, GitHub Actions
-- **Analiz:** Gereksinim analizi, user story ve kabul kriterleri, Scrum, SLA ve trend analizi
+### Yapay zekâ entegrasyon denemeleri
+
+- **[AI .NET Core Advanced Integrations](https://github.com/kursatcnk/AI.NetCoreAdvancedIntegrations)** — Claude, Gemini, OpenAI, Azure AI ve Hugging Face'i SDK'sız, REST üzerinden yan yana çağıran örnekler.  
+  `.NET 9` `HttpClient`
+- **[.NET Core AI Playground](https://github.com/kursatcnk/.NetCoreAiLayground)** — Sohbet, özetleme, Whisper, OCR ve görüntü analizi denemeleri; her proje tek bir API'yi uçtan uca çağırır.  
+  `.NET 8/9` `OpenAI` `Tesseract` `Google Cloud Vision`
+- **[Translate Clone](https://github.com/kursatcnk/NetCoreTranslateCloneApp)** — Çeviriyi OpenAI'ye yaptıran, Google Translate benzeri MVC uygulaması.  
+  `ASP.NET Core MVC` `.NET 9` `OpenAI`
+
+### Web
+
+- **[Portfolyo](https://github.com/kursatcnk/kursat-portfolio)** — Framework ve build adımı olmadan yazılmış kişisel site.  
+  `HTML` `CSS` `JavaScript`
 
 ## İletişim
 
-Freelance projeler ve iş birlikleri için yazabilirsiniz.
-
-[LinkedIn](https://www.linkedin.com/in/kursatcnk/) · [info.cankaroglu@gmail.com](mailto:info.cankaroglu@gmail.com)
+[info.cankaroglu@gmail.com](mailto:info.cankaroglu@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kursatcnk/)
