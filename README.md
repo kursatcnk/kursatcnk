@@ -1,54 +1,28 @@
-# Kürşatcan Çankaroğlu
+.NET geliştiricisi, İstanbul. ASP.NET Core ve WPF ile uygulama yazıyorum; son dönemde dil modellerini ve cihazda çalışan konuşma ve çeviri modellerini .NET uygulamalarına bağlıyorum.
 
-C# / .NET geliştiricisiyim. ASP.NET Core ile web uygulamaları, WPF ile masaüstü araçlar yazıyorum; son projelerimde dil modellerini ve cihazda çalışan konuşma ve çeviri modellerini .NET uygulamalarına bağlıyorum. İstanbul'da ESN Sistem Yazılım'da teknik iş analisti olarak çalışıyorum.
+**Yığın:** C# · ASP.NET Core · Entity Framework Core · SQL Server · WPF · TypeScript · xUnit · GitHub Actions
 
-## Odak
+### Projeler
 
-- **Backend:** ASP.NET Core Web API ve MVC, Entity Framework Core, SQL Server, JWT ve TOTP ile kimlik doğrulama
-- **Masaüstü:** WPF, WASAPI ile ses yakalama, cihazda çalışan Whisper ve Bergamot modelleri
-- **LLM entegrasyonu:** Claude, OpenAI, Gemini; model çıktısını kodla doğrulama (kaynakta olmayan rakam ve iddiayı yakalama)
-- **Test:** xUnit, LocalDB üzerinde uçtan uca API testleri, Vitest, GitHub Actions
+| Proje | Ne yapıyor |
+|:--|:--|
+| [**LinguaFlow**](https://github.com/kursatcnk/LinguaFlow)<br><sub>C# · WPF · Whisper · Bergamot</sub> | Windows'ta çalan İngilizce sesi internete göndermeden, cihazda Türkçe canlı altyazıya çevirir. |
+| [**CV Tailor**](https://github.com/kursatcnk/cv-tailor)<br><sub>ASP.NET Core · SQL Server · QuestPDF</sub> | CV'yi ilana göre yeniden yazar; kaynakta olmayan rakam ve iddiaları kodla yakalar. 200'ü aşkın test, [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0). |
+| [**Manga Lens**](https://github.com/kursatcnk/manga-lens)<br><sub>TypeScript · Chrome MV3 · Claude, Gemini</sub> | Sayfadaki konuşma balonlarını bulur, Türkçe çeviriyi balonun şekline göre yerinde dizer. |
+| [**PromptForge**](https://github.com/kursatcnk/prompt-forge)<br><sub>ASP.NET Core · SQL Server · JWT · TOTP</sub> | Promptu hedef modele göre yeniden yazar ve 6 ölçütte puanlar. |
+| [**WorkTracker**](https://github.com/kursatcnk/work-tracker)<br><sub>C# · WPF</sub> | Kurulum gerektirmeyen, USB'den çalışan hatırlatıcılı görev takibi. |
 
-## Projeler
+### Diğer çalışmalar
 
-### Ürünler
-
-- **[LinguaFlow](https://github.com/kursatcnk/LinguaFlow)** — Windows'ta çalan İngilizce sesi tamamen cihazda Türkçe canlı altyazıya çevirir.  
-  `C#` `WPF` `.NET 10` `Whisper` `Bergamot`
-- **[CV Tailor](https://github.com/kursatcnk/cv-tailor)** — CV'yi ilana göre yeniden yazar; kaynağı olmayan rakam ve iddia onaysız CV'ye girmez. [v1.0.0](https://github.com/kursatcnk/cv-tailor/releases/tag/v1.0.0)  
-  `ASP.NET Core 10` `EF Core` `SQL Server` `QuestPDF` `xUnit`
-- **[Manga Lens](https://github.com/kursatcnk/manga-lens)** — Manga ve çizgi roman sayfalarını okunduğu yerde, balonların içine Türkçe çeviren Chrome eklentisi.  
-  `TypeScript` `Chrome MV3` `Claude` `Gemini` `Vitest`
-- **[PromptForge](https://github.com/kursatcnk/prompt-forge)** — Promptu hedef modele göre yeniden yazar, 6 ölçütte puanlar ve eksikleri gerekçesiyle gösterir.  
-  `ASP.NET Core 8` `EF Core` `SQL Server` `JWT` `TOTP`
-- **[WorkTracker](https://github.com/kursatcnk/work-tracker)** — Kurulum gerektirmeyen, USB'den çalışan hatırlatıcılı görev takip uygulaması.  
-  `C#` `WPF` `.NET 10`
-
-### Backend ve mimari
-
-- **[EF Core Commerce Analytics](https://github.com/kursatcnk/EFCoreCommerceAnalytics)** — Sipariş, ürün ve müşteri yönetimiyle satış raporları sunan e-ticaret paneli.  
-  `ASP.NET Core MVC` `EF Core` `xUnit` `GitHub Actions`
-- **[N-Tier Architecture](https://github.com/kursatcnk/NTierArchitecture)** — Generic repository, Unit of Work ve global doğrulama filtresiyle katmanlı Web API.  
-  `ASP.NET Core 8` `EF Core` `FluentValidation` `AutoMapper` `xUnit`
-- **[MVC Kütüphane](https://github.com/kursatcnk/MvcKutuphane)** — Yönetici ve üye paneli ayrı kütüphane yönetim sistemi.  
-  `ASP.NET MVC 5` `Entity Framework 6` `SQL Server`
-- **[Spor Salonu Yönetimi](https://github.com/kursatcnk/Bitirme_Projesi)** — Üye, eğitmen, ekipman ve randevu kayıtlarını tutan masaüstü uygulaması (lisans bitirme projesi).  
-  `C#` `Windows Forms` `SQL Server`
-
-### Yapay zekâ entegrasyon denemeleri
-
-- **[AI .NET Core Advanced Integrations](https://github.com/kursatcnk/AI.NetCoreAdvancedIntegrations)** — Claude, Gemini, OpenAI, Azure AI ve Hugging Face'i SDK'sız, REST üzerinden yan yana çağıran örnekler.  
-  `.NET 9` `HttpClient`
-- **[.NET Core AI Playground](https://github.com/kursatcnk/.NetCoreAiLayground)** — Sohbet, özetleme, Whisper, OCR ve görüntü analizi denemeleri; her proje tek bir API'yi uçtan uca çağırır.  
-  `.NET 8/9` `OpenAI` `Tesseract` `Google Cloud Vision`
-- **[Translate Clone](https://github.com/kursatcnk/NetCoreTranslateCloneApp)** — Çeviriyi OpenAI'ye yaptıran, Google Translate benzeri MVC uygulaması.  
-  `ASP.NET Core MVC` `.NET 9` `OpenAI`
-
-### Web
-
-- **[Portfolyo](https://github.com/kursatcnk/kursat-portfolio)** — Framework ve build adımı olmadan yazılmış kişisel site.  
-  `HTML` `CSS` `JavaScript`
-
-## İletişim
+| Proje | Ne yapıyor |
+|:--|:--|
+| [**EF Core Commerce Analytics**](https://github.com/kursatcnk/EFCoreCommerceAnalytics)<br><sub>ASP.NET Core MVC · EF Core · xUnit</sub> | Sipariş, ürün ve müşteri yönetimiyle satış raporları sunan e-ticaret paneli. |
+| [**N-Tier Architecture**](https://github.com/kursatcnk/NTierArchitecture)<br><sub>ASP.NET Core · FluentValidation · AutoMapper</sub> | Generic repository ve Unit of Work ile katmanlı Web API. |
+| [**AI Integrations**](https://github.com/kursatcnk/AI.NetCoreAdvancedIntegrations)<br><sub>.NET 9 · REST</sub> | Claude, Gemini, OpenAI, Azure AI ve Hugging Face API'lerini SDK'sız, yan yana çağıran örnekler. |
+| [**AI Playground**](https://github.com/kursatcnk/.NetCoreAiLayground)<br><sub>.NET · OpenAI · Tesseract</sub> | Özetleme, Whisper, OCR ve görüntü analizi denemeleri. |
+| [**Translate Clone**](https://github.com/kursatcnk/NetCoreTranslateCloneApp)<br><sub>ASP.NET Core MVC · OpenAI</sub> | Çeviriyi OpenAI'ye yaptıran, Google Translate benzeri uygulama. |
+| [**MVC Kütüphane**](https://github.com/kursatcnk/MvcKutuphane)<br><sub>ASP.NET MVC 5 · EF 6</sub> | Yönetici ve üye paneli ayrı kütüphane yönetim sistemi. |
+| [**Spor Salonu Yönetimi**](https://github.com/kursatcnk/Bitirme_Projesi)<br><sub>Windows Forms · SQL Server</sub> | Üye, eğitmen ve randevu takibi yapan masaüstü uygulaması; lisans bitirme projesi. |
+| [**Portfolyo**](https://github.com/kursatcnk/kursat-portfolio)<br><sub>HTML · CSS · JavaScript</sub> | Framework ve build adımı olmadan yazılmış kişisel site. |
 
 [info.cankaroglu@gmail.com](mailto:info.cankaroglu@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kursatcnk/)
